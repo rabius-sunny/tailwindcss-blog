@@ -5,7 +5,9 @@ import { MenuIcon, XIcon } from '@heroicons/react/outline'
 const navigation = [
   { name: 'Books', href: '/' },
   { name: 'Lectures', href: '/' },
-  { name: 'Online Books', href: '/' },
+  { name: 'OnlineBooks', href: '/' },
+  { name: 'DarseQuran', href: '/' },
+  { name: 'DarseHadith', href: '/' },
   { name: 'Articles', href: '/' },
 ]
 
@@ -158,9 +160,7 @@ const Intro = () => {
           />
         </div>
       </div>
-      
-      
-      
+
     </>
   )
 }
