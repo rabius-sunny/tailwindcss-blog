@@ -1,11 +1,13 @@
+import Dars from '../Dars'
 import Intro from '../Intro'
-import Lectures from '../Lectures'
+import LecturesBooks from '../Lectures_Books'
 
 const Home = () => {
     return (
         <>
             <Intro />
-            <Lectures />
+            <LecturesBooks />
+            <Dars />
         </>
     )
 }
